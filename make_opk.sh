@@ -23,7 +23,7 @@ FLIST="${FLIST} default.gcw0.desktop"
 FLIST="${FLIST} res"
 
 rm -f ${OPK_NAME}
-mksquashfs ${FLIST} output/${OPK_NAME} -all-root -no-xattrs -noappend -no-exports
+mksquashfs ${FLIST} dist/${OPK_NAME} -all-root -no-xattrs -noappend -no-exports
 
 cat default.gcw0.desktop
 rm -f default.gcw0.desktop
