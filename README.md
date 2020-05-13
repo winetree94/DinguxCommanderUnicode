@@ -11,8 +11,9 @@ This repository contains customizations to make it integrate better with OpenDin
 ### Install toolchain
 
 ```bash
-$ curl http://www.gcw-zero.com/files/opendingux-gcw0-toolchain.2014-08-20.tar.bz2 --output ~/Downloads/toolchain.tar.bz2
-$ sudo tar jxvf ~/Downloads/toolchain.tar.bz2 -C /opt
+$ sudo -s
+$ curl http://www.gcw-zero.com/files/opendingux-gcw0-toolchain.2014-08-20.tar.bz2 --output /tmp/toolchain.tar.bz2
+$ tar jxvf /tmp/toolchain.tar.bz2 -C /opt
 ```
 
 ### Configure environment variables
